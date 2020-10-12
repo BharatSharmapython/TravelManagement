@@ -1,0 +1,60 @@
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="css/bootstrap.min.css" rel="stylesheet" >
+<link href="form-validation.css" rel="stylesheet">
+<!------ Include the above in your HEAD tag ---------->
+<body background="images/repay4.jpg">
+    <font color="blue">
+<div class="container">
+  <div class="row">
+    <div class="span12">
+      <form class="form-horizontal span6" action="buspayment.php">
+        <fieldset>
+          <legend style="color:chartreuse "> <h1>Payment</h1></legend>
+       
+          <div class="control-group" style="text-align:left;">
+            <label class="control-label" style="
+            width: 80px;">BOOKING ID</label>
+            <div class="controls">
+              <input type="number" class="input-block-level" title="enter your customer id" name="t1" required>
+            </div>
+          </div>
+          <font color="blue"><h3> Payment Mode</h3></font>
+          <div class="d-block my-3">
+            <div class="custom-control custom-radio">
+              <input id="credit" name="t2" type="radio" class="custom-control-input" value="creditcard" checked required>
+              <label class="custom-control-label" for="credit">Credit card</label>
+            </div>            
+            <div class="custom-control custom-radio">
+              <input id="debit" name="t2" type="radio" class="custom-control-input" value="debitcard" required>
+              <label class="custom-control-label" for="debit">Debit card</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input id="paypal" name="t2" type="radio" class="custom-control-input" value="paypal" required>
+              <label class="custom-control-label" for="paypal">PayPal</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input id="paytm" name="t2" type="radio" class="custom-control-input" value="paytm" required>
+              <label class="custom-control-label" for="paytm">paytm</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input id="cash" name="t2" type="radio" class="custom-control-input" value="cash" required>
+              <label class="custom-control-label" for="cash">cash</label>
+            </div>
+          </div>
+          </div>
+        </div>
+          <div class = "text-center">
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="button" class="btn">Cancel</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+<script src="js/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+        <script src="js/form-validation.js"></script></body>
+</body>
